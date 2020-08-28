@@ -1,0 +1,18 @@
+#!/usr/bin/perl -w
+
+# file-path.pl
+# Shelley Kandola
+# Copies a file from a path to the current directory
+
+use strict;
+use warnings;
+use File::Basename;
+
+print "Enter filename: ";
+chop(our $file = <STDIN>);
+if (-e "$file"){
+    my $name = basename($file);
+    my $copy = `cp --remove-destination $file $name`;
+}else{
+    print "$file not found\n";
+}
