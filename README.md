@@ -103,3 +103,32 @@ In a terminal, run these commands:
 	sudo port install ImageMagick
 
 Note that these may take a long time to finish, but once they're done, you should be able to return to the GPVplot step and run the program successfully.
+
+## Example Input:
+
+    > How many data sets would you like to graph? 
+    2
+    > Enter filename for set 1: 
+    1991-P1-glass-phases
+    > Enter filename for set 2: 
+    1991-P2-glass-phases
+    > Na20 MgO P2O5 SiO2 Al2O3 K2O CaO TiO2 FeO MnO Na2O+K2O
+    > Enter an x-axis variable from the list above exactly as it appears
+    Al2O3
+    > Would you like to scale the x-axis? (y/n):
+    y
+    > The approximate range is 12.842 to 19.194
+    > Enter low:
+    12
+    > Enter high:
+    20
+    > How many variables would you like to graph (1-8):
+    3
+    > One at a time, enter a y-axis variable from the list above.
+    > Enter variable 1:
+    Na2O
+    > Enter variable 2:
+    MgO
+    > Enter variable 3:
+    P2O5
+    
